@@ -593,10 +593,6 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-conteiner {
-  margin-bottom: 24px;
-}
-
 .modal-input {
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -643,7 +639,7 @@ img {
 }
 
 .modal-conteiner {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-input-cover {
@@ -685,6 +681,10 @@ img {
   line-height: 1.7;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+}
+
+.checkbox-conteiner {
+  margin-bottom: 24px;
 }
 
 .checkbox-text {
