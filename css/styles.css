@@ -701,7 +701,7 @@ img {
 }
 
 .check-element {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -726,5 +726,4 @@ img {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
-  border: none;
 }
