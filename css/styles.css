@@ -696,14 +696,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: centergit;
 }
 
 .check-element {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
@@ -714,6 +712,9 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .policy-accent {
@@ -726,4 +727,5 @@ img {
   background-color: #404bbf;
   border: 1px solid #404bbf;
   fill: #f4f4fd;
+  border: none;
 }
